@@ -1,7 +1,7 @@
 // See README.md for license details.
 
 scalaVersion     := "2.13.8"
-version          := "0.1.0-SNAPSHOT"
+version          := "0.1.1-SNAPSHOT"
 organization     := "Martoni"
 
 githubOwner := "Martoni"
