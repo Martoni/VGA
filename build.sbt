@@ -1,8 +1,11 @@
 // See README.md for license details.
 
-ThisBuild / scalaVersion     := "2.13.8"
-ThisBuild / version          := "0.1.0"
-ThisBuild / organization     := "com.github.martoni"
+scalaVersion     := "2.13.8"
+version          := "0.1.0-SNAPSHOT"
+organization     := "Martoni"
+
+githubOwner := "Martoni"
+githubRepository := "fpgamacro"
 
 val chiselVersion = "3.5.1"
 
