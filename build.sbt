@@ -5,13 +5,13 @@ version          := "0.1.1-SNAPSHOT"
 organization     := "Martoni"
 
 githubOwner := "Martoni"
-githubRepository := "fpgamacro"
+githubRepository := "VGA"
 
 val chiselVersion = "3.5.1"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "VGA",
+    name := "vga",
     libraryDependencies ++= Seq(
       "edu.berkeley.cs" %% "chisel3" % chiselVersion,
       "edu.berkeley.cs" %% "chiseltest" % "0.5.1" % "test"
